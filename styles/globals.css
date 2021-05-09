@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+p, h1, h2, h3, h4, h5, a, li, ul, ol, input {
+  font-family: 'Text Me One', sans-serif;
+}
+
+.inset-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
